@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mountainDesign">
 <head>
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+            <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+            <!-- Latest complied and minified jQuery -->
+    <script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
+            <!-- Required by Bootstrap CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Mountain High Design</title>
 </head>
-<body>
+<body ng-controller="mainController">
+            <!--Bootstrap injection-->
+<div class="container" background-image="Images/forestBackground.jpeg">
+    <div class="container text-center">
+        <h3>Mountain High Design</h3>
+        <p><em>Designing for the Future</em></p>
+        <p>Cutting edge web design, custom built in Utah</p>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p><strong>Web Applications</strong></p><br>
+                <img src="Images/webApp.png" alt="Web Applications">
+            </div>
+            <div class="col-sm-4">
+                <p><strong>Landing Pages</strong></p><br>
+                <img src="Images/runway.jpg" alt="Landing Pages">
+            </div>
+            <div class="col-sm-4">
+                <p><strong>Scalable Database Controls</strong></p><br>
+                <img src="bandmember.jpg" alt="Database Control">
+            </div>
+        </div>
+    </div>
 
+</div>
+
+            <!-- SCRIPT TAGS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+<script src="App/app.js"></script>
+<script src="Controllers/mainController.js"></script>
+            <!-- SCRIPT TAGS -->
 </body>
 </html>

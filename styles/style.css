@@ -1,0 +1,11 @@
+h1 {
+    color: green;
+    margin-left: 60px;
+}
+
+.background-main {
+    background-color: aquamarine;
+    /*background-image: url("Images/forestBackground.jpeg");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+}
