@@ -1,1 +1,1 @@
-angular.module('mountainDesign', []);
+angular.module('webDesign', []);

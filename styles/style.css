@@ -1,6 +1,7 @@
-h1 {
+.h1-test-class {
     color: green;
     margin-left: 60px;
+    font-size: 20pt;
 }
 
 .background-main {
@@ -8,4 +9,8 @@ h1 {
     /*background-image: url("Images/forestBackground.jpeg");*/
     /*background-size: contain;*/
     /*background-repeat: no-repeat;*/
+}
+
+.btn-primary btn-lg {
+    background-color: green;
 }
